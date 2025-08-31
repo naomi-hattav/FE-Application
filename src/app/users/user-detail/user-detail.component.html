@@ -1,0 +1,14 @@
+<h2>פרטי משתמש</h2>
+<div *ngIf="user$ | async as user; else loading">
+<span>{{user.name}}</span>>
+<span>{{user.email}}</span>>
+<span>{{user.phone}}</span>>
+<a [routerLink]="['/users']">חזרה לרשימה</a>
+</div>
+
+
+<ng-template #loading>
+<div>
+    טוען פרטים...
+</div>
+</ng-template>
