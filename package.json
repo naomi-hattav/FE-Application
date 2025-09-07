@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "cyber-users-app",
-=======
   "name": "cyber-dashboard",
->>>>>>> 401cc86 (initial commit)
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
