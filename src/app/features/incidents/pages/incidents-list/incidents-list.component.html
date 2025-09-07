@@ -1,8 +1,0 @@
-<div class="search-box">
-    <input type="text" [formControl]="searchControl"  placeholder="חיפוש">
-</div>
-
-
-<cdk-virtual-scroll-viewport itemSize="120" class="scroll-viewport">
-    <app-incident-card *cdkVirtualFor="let incident of incidents$ | async"  [incident]="incident"></app-incident-card>
-</cdk-virtual-scroll-viewport>
