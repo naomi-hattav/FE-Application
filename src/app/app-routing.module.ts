@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { UserDetailComponent } from './users/user-detail/user-detail.component';
 import { UserListComponent } from './users/user-list/user-list.component';
 import { UserFormComponent } from './users/user-form/user-form.component';
@@ -11,6 +12,10 @@ const routes: Routes = [
 {path:'add-user',component:UserFormComponent},
 {path:'',redirectTo:'users',pathMatch:'full'},
 {path:'**',redirectTo:'users'}];
+=======
+
+const routes: Routes = [];
+>>>>>>> 401cc86 (initial commit)
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

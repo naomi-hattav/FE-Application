@@ -20,16 +20,27 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+<<<<<<< HEAD
   it(`should have as title 'cyber-users-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('cyber-users-app');
+=======
+  it(`should have as title 'cyber-dashboard'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('cyber-dashboard');
+>>>>>>> 401cc86 (initial commit)
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
+<<<<<<< HEAD
     expect(compiled.querySelector('.content span')?.textContent).toContain('cyber-users-app app is running!');
+=======
+    expect(compiled.querySelector('.content span')?.textContent).toContain('cyber-dashboard app is running!');
+>>>>>>> 401cc86 (initial commit)
   });
 });
