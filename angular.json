@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
-    "cyber-users-app": {
-=======
     "cyber-dashboard": {
->>>>>>> 401cc86 (initial commit)
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,11 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
-            "outputPath": "dist/cyber-users-app",
-=======
             "outputPath": "dist/cyber-dashboard",
->>>>>>> 401cc86 (initial commit)
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -73,17 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-<<<<<<< HEAD
-              "browserTarget": "cyber-users-app:build:production"
-            },
-            "development": {
-              "browserTarget": "cyber-users-app:build:development"
-=======
               "browserTarget": "cyber-dashboard:build:production"
             },
             "development": {
               "browserTarget": "cyber-dashboard:build:development"
->>>>>>> 401cc86 (initial commit)
             }
           },
           "defaultConfiguration": "development"
@@ -91,11 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
-            "browserTarget": "cyber-users-app:build"
-=======
             "browserTarget": "cyber-dashboard:build"
->>>>>>> 401cc86 (initial commit)
           }
         },
         "test": {
