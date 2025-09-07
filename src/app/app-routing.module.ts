@@ -14,8 +14,25 @@ const routes: Routes = [
 {path:'**',redirectTo:'users'}];
 =======
 
+<<<<<<< HEAD
 const routes: Routes = [];
 >>>>>>> 401cc86 (initial commit)
+=======
+const routes: Routes = [
+  { path: 'incidents',
+     loadChildren: () => import('./features/incidents/incidents.module').then(m => m.IncidentsModule)
+     },
+  {
+    path: '',
+    redirectTo: 'incidents',
+    pathMatch: 'full'
+  },
+  {
+    path: '**',
+    redirectTo: 'incidents'
+  }
+];
+>>>>>>> 07e73e5 (cyber-dashboard app)
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
